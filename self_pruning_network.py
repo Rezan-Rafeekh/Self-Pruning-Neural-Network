@@ -1,7 +1,7 @@
 """
 Self-Pruning Neural Network for CIFAR-10 Classification
 ========================================================
-Tredence AI Engineering Intern – Case Study Submission
+Tredence Analytics - AI Engineering Intern – Case Study
 
 Fixes vs v1:
   - Sparsity loss is now MEAN (not sum) of gates → λ stays in a sane range
@@ -11,7 +11,7 @@ Fixes vs v1:
   - num_workers=0 on Windows (avoids multiprocessing pickle issues)
   - Larger batch size (512) → fewer steps per epoch
 
-Author: [Your Name]
+Author: FATHIMA REZAN RAFEEKH
 """
 
 import torch
