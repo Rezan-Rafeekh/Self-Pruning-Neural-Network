@@ -1,6 +1,6 @@
 # 🧠 Self-Pruning Neural Network
 
-> Tredence AI Engineering Intern — Case Study Submission
+> Tredence AI Engineering Intern — Case Study
 
 A PyTorch implementation of a neural network that **learns to prune its own weights during training** — no post-training pruning step required. Each weight is controlled by a learnable scalar gate; an L1 sparsity penalty drives unnecessary gates to exactly zero, leaving behind a compact, accurate network.
 
